@@ -25,11 +25,6 @@ header{
 .butonsito{
    display: flex;
    padding-top: 15px;
-   
-
-    
-    
-  
     
 }
 
@@ -65,13 +60,17 @@ header{
     
     display: flex;
     margin-top: 111px;
+   
     width: 650px;
     height: auto;
 }
 .center-image-1 {
+    
+    background-color: rgb(225,134,25)
+        ;
     display: inline-block;
-    margin-top: 300px;
-    margin-left: 165px;
+    margin-top: 230px;
+    margin-left: 190px;
 
     
 }
@@ -90,5 +89,30 @@ header{
     padding-top: 10px;
 }
   
+.bordesito{
+    margin-top: 50px;
+    margin-left: 400px;
+    height:570px;
+    width: 600px;
+    border: solid 2px #4d526a;
+    background-color: #4d526a;
 
+}
   
+.fonto-1{
+    font-size: 30px;
+    color: rgba(255,255,255,.9176470588);
+    margin-top: 25px;
+    text-align:center;
+    width: 100%;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.fonto-2{
+    font-size: 15px;
+    color: rgba(255,255,255,.9176470588);
+    padding: 5px;
+    text-align:center;
+    
+}
