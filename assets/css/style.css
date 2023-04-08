@@ -59,9 +59,9 @@ header{
 .center-image{
     
     display: flex;
-    margin-top: 111px;
+    margin-top: 111px ;
    
-    width: 650px;
+    width: 600px;
     height: auto;
 }
 .center-image-1 {
@@ -70,7 +70,7 @@ header{
         ;
     display: inline-block;
     margin-top: 230px;
-    margin-left: 190px;
+    margin-left: 155px;
 
     
 }
@@ -90,7 +90,7 @@ header{
 }
   
 .bordesito{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 400px;
     height:570px;
     width: 600px;
@@ -115,4 +115,15 @@ header{
     padding: 5px;
     text-align:center;
     
+}
+
+
+.bordesito-2{
+    margin-top: 20px;
+    margin-left: 280px;
+    height:580px;
+    width: 800px;
+    border: solid 2px #4d526a;
+    background-color: #4d526a;
+
 }
