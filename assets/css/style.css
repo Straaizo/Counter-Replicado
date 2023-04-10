@@ -58,10 +58,10 @@ header{
 
 .center-image{
     
-    display: flex;
+    position: relative;
     margin-top: 111px ;
-   
-    width: 600px;
+    margin-right: 300px;
+    width: 100vh;
     height: auto;
 }
 .center-image-1 {
@@ -70,7 +70,9 @@ header{
         ;
     display: inline-block;
     margin-top: 230px;
-    margin-left: 155px;
+    margin-left: 220px;
+    width: 75vh;
+    height: auto;
 
     
 }
@@ -91,9 +93,10 @@ header{
   
 .bordesito{
     margin-top: 20px;
-    margin-left: 400px;
-    height:570px;
-    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height:80vh;
+    width: 100vh;
     border: solid 2px #4d526a;
     background-color: #4d526a;
 
@@ -120,10 +123,104 @@ header{
 
 .bordesito-2{
     margin-top: 20px;
-    margin-left: 280px;
-    height:580px;
+    margin-left: auto;
+    margin-right: auto;
+    height:95vh;
     width: 800px;
     border: solid 2px #4d526a;
     background-color: #4d526a;
 
 }
+
+.fondo-3{
+    width: 100vw;
+    height: 1500PX;
+    border: solid 1px rgba(255,255,255,.9176470588);;
+    background-image: url('/assets/images/bgGray.svg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+  
+    
+}
+
+.bordesito-3{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    height: auto;
+    border: solid 2px #eee;
+    background-color: #eee;
+    border: solid 1px black;
+    
+}
+
+.lol{
+    font-size: 35px;
+    color: black;
+    margin-top: 35px;
+    text-align:center;
+    width: 100%;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.fonto-3{
+    font-size: 18px;
+    color: black;
+   text-align: center;
+   max-width: 650px;
+   padding: 0 auto;
+   margin-left: 250px;
+   
+}
+
+.videito{
+    display: flex;
+    height: 60vh;
+    width: auto;
+    margin-top: 30px;
+   
+    
+}
+
+
+.textio{
+    display: flex;
+    margin-top: 150px;
+}
+
+.textio-1{
+    display: flex;
+    margin-top: 150px;
+
+}
+
+.fondo-4{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('/assets/images/bgDarkBlue.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bordesito-4{
+   
+
+    background-color: black;
+    width: 100vw;
+    height: 85px;
+}
+
+
+.textio-2{
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 15px;
+}   
